@@ -6,10 +6,11 @@
 var myVariable = "hello";
 console.log("myVariable " + myVariable);
 
-var myArray = [];
+var myArray = new Array();
 
-myArray.push("my first Greeting");
-myArray.push("my second Greeting");
+myArray[0] = "My First Greeting";
+myArray[1] = "My Second Greeting";
+
 console.log(myArray[1]);
 
 
