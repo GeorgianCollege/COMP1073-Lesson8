@@ -10,7 +10,7 @@ var myArray = [];
 
 myArray.push("my first Greeting");
 myArray.push("my second Greeting");
-console.log(myArray);
+console.log(myArray[1]);
 
 
 })();
